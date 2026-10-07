@@ -1,0 +1,40 @@
+# --- Vom Repo ausgeschlossen -------------------------------------------
+# Export-Ordner (u. a. merged.pdf, ~500 MB)
+/00_Export/
+
+# --- Betriebssystem ------------------------------------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+ehthumbs.db
+$RECYCLE.BIN/
+
+# --- Editoren / IDEs -----------------------------------------------------
+.vscode/
+.idea/
+*.swp
+*~
+
+# --- Obsidian (falls der Ordner mal als Vault geöffnet wird) -------------
+.obsidian/
+
+# --- Office-/Temp-Dateien ------------------------------------------------
+~$*
+*.tmp
+*.bak
+
+# --- LaTeX-Build-Artefakte (PDFs bleiben bewusst tracked) ----------------
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+*.bbl
+*.blg
+
+# --- Secrets (Sicherheitsnetz) -------------------------------------------
+.env
+*.key
+*.pem
